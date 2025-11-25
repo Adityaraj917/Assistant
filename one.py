@@ -31,11 +31,11 @@ while True:
             speaker.runAndWait()
             os.system(" start chrome")
 
-        elif "send message to home" in text:
-            print("sending message to home")
-            speaker.say(" ok sending message for you Aditya sir")
-            speaker.runAndWait()
-            pywhatkit.sendwhatmsg_instantly("+919798615453","bhgla ki")
+        #elif "send message to home" in text:
+            #print("sending message to home")
+            #speaker.say(" ok sending message for you Aditya sir")
+            #speaker.runAndWait()
+            #pywhatkit.sendwhatmsg_instantly("+","bhgla ki")
             
         elif "jarvis stop" in text.lower():
             speaker.say(" ok Aditya sir,I would be always raedy to serve you next time ")
